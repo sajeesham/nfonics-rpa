@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://localhost:1313/"
+baseurl = "https://sajeesham.github.io/supportjiffyrpa/"
 languageCode = "en-US"
 title = "Welcome to the Jiffy-RPA Help Center"
 
