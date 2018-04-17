@@ -1,4 +1,5 @@
 baseURL = "https://sajeesham.github.io/supportjiffyrpa/"
+themeDir= "theme"
 languageCode = "en-us"
 publishDir= "docs"
 title = "Welcome to the Jiffy-RPA Help Center"
