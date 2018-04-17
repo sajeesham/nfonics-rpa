@@ -1,4 +1,4 @@
-baseURL = "https://sajeesham.github.io/nfonics-rpa/"
+baseURL = "https://sajeesham.github.io/supportjiffyrpa/"
 themeDir= "theme"
 languageCode = "en-us"
 publishDir= "docs"
