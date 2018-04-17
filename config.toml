@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://sajeesham.github.io/supportjiffyrpa/"
 languageCode = "en-us"
 publishDir= "docs"
 title = "Welcome to the Jiffy-RPA Help Center"
