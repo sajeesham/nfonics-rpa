@@ -1,0 +1,8 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+publishDir= "docs"
+title = "Welcome to the Jiffy-RPA Help Center"
+theme ="docube"
+
+[params]
+  menu = [ "1. Getting Started With Jiffy", "2. Task Design - Task Plan", "3. Task Design - Configurations", "4. Task Design - Tasks", "5. Task Design - Tasks - Objects And Properties", "6. Mappings", "7. UI Tasks", "8. Components", "9. Task Execution", "10. Repository", "11. Settings" ]

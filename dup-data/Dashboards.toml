@@ -1,0 +1,38 @@
+id = "Dashboards123"
+name = "2. Dashboards"
+
+[[items]]
+
+question = "What should I do if my order hasn't been delivered yet?"
+
+[[items]]
+
+question = "How can I find your international delivery information?"
+
+[[items]]
+
+question = "Who takes care of shipping?"
+
+[[items]]
+
+question = "How do returns or refunds work?"
+
+[[items]]
+
+question = "How do I use shipping profiles?"
+
+[[items]]
+
+question = "How does your UK Next Day Delivery service work?"
+
+[[items]]
+
+question = "How does your Next Day Delivery service work?"
+
+[[items]]
+
+question = "When will my order arrive?"
+
+[[items]]
+
+question = "When will my order ship?"

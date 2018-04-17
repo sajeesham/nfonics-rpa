@@ -1,0 +1,419 @@
+
+.dash-main * {
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+.dash-main .content-part ul, .dash-main .content-part ol {
+  margin-bottom: 18px;
+  padding: 0 0 0 19px;
+}
+.dash-main .content-part ul li {
+  list-style: initial;
+}
+.dash-main .content-part ol li {
+  list-style: inherit;
+}
+
+.dash-main h2 {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 32px 0 8px;
+  font-weight: 400;
+}
+.dash-main h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 24px 0 8px;
+}
+.dash-main h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 20px 0 4px;
+}
+.dash-main h5 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 18px 0 4px;
+}
+@media (min-width: 786px) {
+  .dash-main h3 {
+    font-size: 18px;
+  }
+  .dash-main h2 {
+    font-size: 24px
+  }
+}
+
+.cd-faq {
+  position: relative;
+  margin: 2em auto;
+  box-shadow: none;
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .cd-faq-items {
+    position: static;
+    height: auto;
+    width: 100%;
+    float: right;
+    overflow: visible;
+    -webkit-transform: translateZ(0) translateX(0);
+    -moz-transform: translateZ(0) translateX(0);
+    -ms-transform: translateZ(0) translateX(0);
+    -o-transform: translateZ(0) translateX(0);
+    transform: translateZ(0) translateX(0);
+    padding: 0;
+    background: transparent;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-faq-items {
+    float: none;
+    width: 100%;
+  }
+  .no-js .cd-faq-items {
+    padding-left: 0;
+  }
+}
+
+.cd-faq-group {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cd-faq-group.selected {
+  display: block;
+}
+
+.cd-faq-group .cd-faq-title {
+  background: transparent;
+  box-shadow: none;
+  margin: 1em 0;
+}
+
+.no-touch .cd-faq-group .cd-faq-title:hover {
+  box-shadow: none;
+}
+
+.cd-faq-group .cd-faq-title h2 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #bbbbc7;
+}
+
+.no-js .cd-faq-group {
+  display: block;
+}
+
+.cd-faq-group {
+  /* all groups visible */
+  display: block;
+}
+.cd-faq-group > li {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+.no-touch .cd-faq-group > li:hover {
+  box-shadow: 0 1px 10px rgba(108, 125, 142, 0.3);
+}
+.cd-faq-group .cd-faq-title {
+  margin: 2em 0 1em;
+}
+.cd-faq-group:first-child .cd-faq-title {
+  margin-top: 0;
+}
+
+.cd-faq-trigger {
+  position: relative;
+  display: block;
+  margin: 1.6em 0 .4em;
+  line-height: 1;
+  text-decoration: none;
+  color: black
+}
+.cd-faq-trigger:hover, .cd-faq-trigger:active {
+  color: black;
+}
+
+.content-visible > .cd-faq-trigger {
+  font-weight: 500;
+}
+
+.content-visible {
+  background: #616161;
+  color: #fff;
+}
+
+.content-visible * {
+  color: #fff !important;
+}
+
+.cd-faq-trigger {
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  padding: 12px 12px 12px 72px;
+  font-size: 15px
+}
+
+a.cd-faq-trigger:before, a.cd-faq-trigger:after {
+  content: "";
+}
+.cd-faq-trigger::before,
+.cd-faq-trigger::after {
+  /* arrow icon on the right */
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  height: 2px;
+  width: 13px;
+  background: #666;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.cd-faq-trigger::before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  left: 25px;
+}
+.cd-faq-trigger::after {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.content-visible .cd-faq-trigger::before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background: white;
+}
+.content-visible .cd-faq-trigger::after {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background: white;
+}
+
+.cd-faq-content p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #6c7d8e;
+}
+
+.cd-faq-links {
+  display:block;
+  text-decoration: none;
+  line-height: 1;
+  padding: 10px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.cd-faq-content {
+  display: none;
+  padding: 0 63px 12px;
+  font-size: 14px;
+  line-height: 12px;
+}
+.cd-faq-content p {
+  line-height: 1.6;
+}
+.no-js .cd-faq-content {
+  display: block;
+}
+
+.contact-banner {
+  height: 50vh;
+}
+.dash-section {
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
+.dash-section .wrapper {
+  margin-top: -20vh;
+}
+.crumbs {
+  font-size: 0.85em;
+  color: grey;
+  margin-bottom: 20px;
+}
+.space {
+  margin: 2em auto;
+}
+
+
+.content-part {
+  width: 100%;
+  padding-right: 30px;
+    padding-left: 30px;
+  float: left;
+}
+
+.sidebar-part {
+  width: 20%;
+  float: left;
+}
+.sidebar-part .cd-faq-links {
+  padding: 6px 0;
+  line-height: 12px;
+  color: #cfd7dc;
+      font-size: 14px;
+}
+.sidebar-part > h4 {
+  color: #fff;
+font-weight: 400;
+font-size: 16px;
+border-bottom: 1px solid #ddd;
+width: 32%;
+}
+
+@media only screen and (max-width: 768px) {
+  .content-part {
+    width: 100%;
+    padding-right: 0px;
+    float: none;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-part {
+    width: 100%;
+    float: none;
+  }
+}
+
+.doToggleContent {
+  display: none;
+  margin-top: 0px;
+  overflow: auto;
+  transition: margin-top 0.218s ease-out;
+
+  position: relative;
+}
+.doToggleContent:before {
+  background-color: #e0e0e0;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -19px;
+
+}
+
+.arrowToggle.separator {
+  box-sizing: border-box;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 50px 12px 16px;
+  margin-top: 0px;
+      font-size: 14px;
+}
+
+.arrowToggle.separator.active {
+  border-bottom-color: transparent
+}
+.arrowToggle.separator + .doToggleContent {
+  margin-left: 16px;
+}
+
+
+.arrowToggle {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: normal;
+  line-height: 20px;
+  margin: -1px;
+  outline: none;
+  padding: 8px 50px 8px 0px;
+  position: relative;
+  width: 100%;
+  color: #4285f4;
+}
+.arrowToggle {
+  color: #4285f4;
+}
+.arrowToggle:hover::after,
+.arrowToggle:hover::before,
+.arrowToggle.active::after,
+.arrowToggle.active::before {
+  background: #4285f4;
+}
+
+.arrowToggle::after, .arrowToggle::before {
+  content: " ";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  height: 1px;
+  width: 11px;
+  background: #4285f4;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+.arrowToggle::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  right: 19px;
+}
+.arrowToggle::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.active.arrowToggle::before {
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+  transform: rotate(130deg);
+  right: 19px;
+}
+.active.arrowToggle::after {
+  -webkit-transform: rotate(-130deg);
+  -moz-transform: rotate(-130deg);
+  -ms-transform: rotate(-130deg);
+  -o-transform: rotate(-130deg);
+  transform: rotate(-130deg);
+}

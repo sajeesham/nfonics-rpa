@@ -1,0 +1,37 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+ {{ define "main" }}
+
+<div class="container">
+
+  <div class="wrapper">
+
+
+    <section class="dash-main">
+
+<h1>{{ .Site.Title }}</h1>
+
+<section class="cd-faq">
+  <div class="cd-faq-items">
+    <ul id="" class="cd-faq-group">
+
+      {{ range .Site.Data.groups }}
+      <li>
+        <a class="cd-faq-trigger" href="#0">{{ .name }}</a>
+        <div class="cd-faq-content">
+          {{ range where $.Site.Pages "Section" .name }}
+          <a class="cd-faq-links" href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+        </div>
+      </li>
+      {{ end }}
+
+    </ul>
+  </div>
+</section>
+
+</section>
+
+</div>
+
+</div>
+  <section class="copyatright">  Copyright © 2017 Option3. All rights reserved. 	</section>
+{{ end }}

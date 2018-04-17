@@ -1,0 +1,34 @@
+
+{{ define "main" }}
+
+<div class="containersecond">
+
+  <div class="wrapper">
+  <section class="dash-main">
+  <div class="dcb-container">
+  <div class="content-part">
+    <h1>{{ .Title }}</h1>
+    <section class="space">
+      {{ .Content }}
+    </section>
+  </div>
+
+
+  <section class="copyatrightinner">  Copyright © 2017 Option3. All rights reserved. 	</section>
+</div>
+</section>
+</div>
+</div>
+
+<div class="sidebar-part">
+  <h4>Related Links</h4>
+  <ul>
+    {{ range where $.Site.Pages "Section" .Section }}
+    <li>
+      <a class="cd-faq-links" href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+
+{{ end }}

@@ -1,0 +1,21 @@
+# Site settings
+baseurl = "http://localhost:1313/"
+languageCode = "en-US"
+title = "Welcome to the Jiffy-RPA Help Center"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Menu
+SectionPagesMenu = "main"
+
+[params]
+  menu = [ "1. Getting Started With Jiffy", "2. Task Design - Task Plan", "3. Task Design - Configurations", "4. Task Design - Tasks", "5. Task Design - Tasks - Objects And Properties", "6. Mappings", "7. UI Tasks", "8. Components", "9. Task Execution", "10. Repository", "11. Settings" ]
+
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point
+	# to your site's css in the assets/ directory.
+
+	#custom_css = ["css/blue.css"]
